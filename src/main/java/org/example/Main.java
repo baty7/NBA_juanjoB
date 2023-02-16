@@ -5,15 +5,10 @@ public class Main {
 
         NbaBD nbaBD = new NbaBD();
 
-
-        nbaBD.leerDatosColeccion();
-
-
-
-
-
-
-
+        //nbaBD.insertarListaID();
+        //nbaBD.nuevaCiudad();
+        //nbaBD.nuevoSalario("Los Angeles Lakers", "salario", 0);
+        nbaBD.menuImprimir();
         nbaBD.cerrarConexion();
     }
 }
